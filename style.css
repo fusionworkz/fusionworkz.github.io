@@ -1,0 +1,53 @@
+/* Basic Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; }
+
+/* Navigation */
+nav {
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+nav a { margin: 0 1rem; text-decoration: none; color: #333; }
+
+/* Sections */
+section { padding: 5rem 2rem; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+
+/* Hero Section */
+#home { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/hero-bg.jpg'); background-size: cover; color: white; }
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    background: #ff5e5e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Services Grid */
+.service-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.service {
+    flex: 1 1 300px;
+    max-width: 300px;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Form */
+form { display: flex; flex-direction: column; width: 100%; max-width: 500px; }
+input, textarea { margin-bottom: 1rem; padding: 0.5rem; border: 1px solid #ccc; }
+button { padding: 0.75rem; background: #333; color: white; border: none; }
